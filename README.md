@@ -29,3 +29,17 @@
 ```bash
 sudo apt update
 sudo apt install g++ libcurl4-openssl-dev libiconv-hook-dev
+```
+
+#### Компиляция
+```bash
+g++ main.cpp -o programm -lcurl -liconv
+clang++ main.cpp -o programm -lcurl -liconv
+```
+#### Примеры выполнения
+- вывод курсов долларов и евро от Центрального Банка России
+
+```bash
+chmod +x ressault.sh
+./ressault.sh
+```
